@@ -1,6 +1,6 @@
 /**
  * @author Seraphyno
- * @since 02.02.2018
+ * @since 02.02.2018 
  * @version 1.0
  */
 package fileProcessor;

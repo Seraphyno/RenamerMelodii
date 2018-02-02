@@ -14,7 +14,7 @@ import java.io.*;
 public class Logger {
 
 	/**
-	 * Method meant to create a writer to the file, write a new line, then close the file
+	 * Method meant to create a writer to the file, write a new line, then closes the file
 	 * @param text the input string meant to be written as a new line in the file
 	 * @exception IOException
 	 */
