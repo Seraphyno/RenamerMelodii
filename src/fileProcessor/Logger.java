@@ -11,6 +11,7 @@ public class Logger {
 		    PrintWriter out = new PrintWriter(bw))
 		{
 		    out.println(text);
+		    out.close();
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
