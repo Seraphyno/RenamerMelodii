@@ -1,3 +1,8 @@
+/**
+ * @author Seraphyno
+ * @since 02.02.2018
+ * @version 1.0
+ */
 package fileProcessor;
 
 import java.io.*;
@@ -5,6 +10,11 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Class meant to parse the content of a folder and rename files according to rules
+ * Keeps a log file named history.txt
+ * @see Logger 
+ */
 public class RenameFile {
 
 	private static String absolutePath = "C:\\Users\\Sokol\\Desktop\\test";
