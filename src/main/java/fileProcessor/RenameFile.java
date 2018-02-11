@@ -71,7 +71,8 @@ public class RenameFile {
 	public String changeName(String name) {
 		String path = name.substring(0, name.lastIndexOf('\\'));
 		String actualName = name.substring(name.lastIndexOf('\\') + 1);
-		String newName = actualName.replaceAll("_", " ")
+		String newName = actualName
+				.replaceAll("_", " ")
         		.replaceAll("\\((.*?)\\)", "")
         		//added nullification of brackets and their content
         		.replaceAll("\\[[^\\[]*\\]", "")
