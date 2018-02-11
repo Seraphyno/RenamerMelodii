@@ -3,7 +3,7 @@
  * @since 02.02.2018
  * @version 1.0
  */
-package fileProcessor;
+package main.java.fileProcessor;
 
 import java.io.*;
 

@@ -12,8 +12,8 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextArea;
-import java.awt.ScrollPane;
 
+@SuppressWarnings("serial")
 public class MainWindow extends JFrame {
 
 	private JPanel contentPane;
